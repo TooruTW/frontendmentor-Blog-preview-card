@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card{
+    width: 45vw;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px  hsl(0, 0%, 7%);
+    border-radius: 0.5rem;
+    padding: 1rem 1rem 1rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.text{
+    margin: 1rem 0 1rem;
+}
+
+#article-img{
+    border-radius: 0.5rem;
+    max-width: 100%;
+    max-height: 100%;    
+    object-fit: contain;
+}
+
+.tag{
+    width: fit-content;
+    padding: 0.25rem 0.5rem 0.25rem ;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.5rem;
+}
+.date{
+    font-size: 0.8rem;
+}
+.title{
+    font-weight: 800;
+}
+.intro{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.author{
+    font-size: 0.8rem;
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#author-pic{
+    width: 2rem;
+    margin: 0 1rem 0 0;
+    object-fit: contain;
+}
+
+.attribution{
+    font-size: 0.8rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
