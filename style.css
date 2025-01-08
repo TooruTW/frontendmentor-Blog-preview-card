@@ -17,6 +17,7 @@ body{
 
 .card{
     width: 45vw;   
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +49,10 @@ body{
 }
 .title{
     font-weight: 800;
+}
+.title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 .intro{
     font-size: 0.8rem;
