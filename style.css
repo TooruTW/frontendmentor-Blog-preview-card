@@ -16,8 +16,9 @@ body{
 }
 
 .card{
-    width: 45vw;   
-    min-width: 300px;
+    width: fit-content;   
+    max-width: 300px;
+    min-width: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
